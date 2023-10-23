@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=DM+Serif+Display:ital@0;1&family=Noto+Sans:ital,wght@0,100;0,400;1,100&display=swap');
+
+body {
+  background-image: url("images/background.jpg");
+  font-family: 'DM Serif Display', sans-serif;
+  color: #473335;
+}
+
+.button {
+  text-decoration: none;
+  color: #E5EBEA;
+  background-color: #A26769;
+  padding: 10px;
+  border-radius: 5px;
+}
+h1 {
+  color: #473335;
+  font-family: 'Anton', sans-serif;
+  font-size: 25px;
+}
+
+h2, h3 {
+  color: #473335;
+  font-family: 'Anton', sans-serif;
+  font-size: 20px;
+}
+.container {
+ width: 800px;
+ margin: 40px auto;
+}
+
+.avatar {
+  width: 200px;
+  height: 250px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+.img-card {
+  width: 300px;
+}
+
+.shadowed {
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.card, .multi-card {
+  background-color: #D5B9B2;
+  margin: 25px;
+  border-radius: 12px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.multi-card {
+  display: inline-block;
+}
+.card i {
+  color: #A26769;
+}
+
+.card:first-child p {
+  margin-bottom: 40px;
+}
+.small-card {
+  margin: 5px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.2);
+}
+
+.small-card i {
+  color: #A26769;
+}
+
+i {
+  font-size: 40px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+.list > li {
+  display: inline-block;
+}
+.list i {
+  color: #473335;
+  cursor: pointer;
+}
+
+.list i:hover {
+  opacity: 0.5;
+}
+
+
+@media (max-width: 400px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 200px;
+  }
+  .img-card {
+    width: 80px;
+  }
+}
+
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  .img-card {
+    width: 100px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 600px;
+  }
+}
